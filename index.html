@@ -2,7 +2,8 @@
 <html lang="ru">
 <head>
   <meta charset="utf-8">
-	<link href='https://fonts.googleapis.com/css?family=Cuprum:400,400italic,700|PT+Sans:400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>	
+	<link href='https://fonts.googleapis.com/css?family=Cuprum:400,400italic,700' rel='stylesheet' type='text/css'>	
+	<link href='https://fonts.googleapis.com/css?family=PT+Sans:400,700&subset=latin,cyrillic' rel='stylesheet' type='text/css'>	
 	<link rel="stylesheet" href="css/normalize.css">  
 	<link href="css/style.css" rel="stylesheet">
   <title>HTML Academy: Техномарт</title>
@@ -10,8 +11,8 @@
 <body>
   <header>
 		<div class="header-user-block">
-			<div class="container ">				
-        <a class="btn-logo" href="index.html">Техномарт</a>
+			<div class="container clearfix">        
+				<a class="btn-logo" href="index.html">Техномарт</a>
 				<form class="search-main" action="l" method="get">
 					<input class="search-txt ico-search" type="text" name="s" placeholder="Поиск"/>
 					<input class="search-btn" type="submit" name="m" value="поиск"/>		
@@ -25,16 +26,17 @@
 			<div class="container clearfix">
 				<section class="shop-description">
 					<p>Интернет-магазин 
-	строительных материалов <br> 
-	и инструментов для ремонта</p>
+	строительных материалов   
+	и&nbsp;инструментов для ремонта</p>
 				</section>			
 				<section class="header-contacts">					
 					<p class="phone">+7 (812) 555-05-55</p>					
 					<p class="address">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
 				</section>			 
-				<div class="login-block">
+				<div class="authorization-block">
 					<a class="login-block-btn" href="#">Войти</a>
 					<a class="login-block-btn" href="#">Регистрация</a>
+					<a class="authorization-block-btn unautorized" href="#">Равшан Джамшутович</a>	
 				</div>				
 				<nav class="top-navigation">
 					<ul>            
@@ -113,11 +115,11 @@
 		</div>
 	</section>
 	<section class="pop-items-block">
-		<div class="container clearfix">
+		<div class="container clearfix">			
 			<div class="pop-items-show">
 				<h2>Популярные товары:</h2>
-				<a href="#" class="btn-pop">все популярные товары</a>        
-      </div>					
+				<a href="#" class="btn-pop">все популярные товары</a>       
+			</div>					
 			<article class="item">        
 				<div class="actions">         
 					<a href="#" class="buy">Купить</a>          
@@ -266,7 +268,7 @@
 				<p class="contacts-discription">
 Вы можете забрать товар сами, 
 заехав в наш офис:</p>
-				<div class="map-wrapper"></div>
+				<a class="map-wrapper" href="#"><img src="img/map.jpg" width="300" height="162" alt="Карта">	</a>
 				<a class="btn-open-modal" href="#">Заблудились? Напишите нам!</a>
 			</div>
 		</div>

@@ -1,6 +1,6 @@
 html,
 body {
-	min-width: 1200px;
+	min-width: 960px;
 	min-height: 2249px;
 	margin: 0;
 	padding: 0;
@@ -10,171 +10,171 @@ body {
 	font-weight: 400;
 	font-size: 17px;
 	line-height: px;
-	font-family: "Cuprum", "PT Sans", "Arial", sans-serif;
+	font-family: "Cuprum", "Arial", sans-serif;
 	color: #000000;
 	font-weight: normal;
 }
 
 .sprite {
-    background-image: url(spritesheet.png);
-    background-repeat: no-repeat;
-    display: block;
+	background-image: url(spritesheet.png);
+	background-repeat: no-repeat;
+	display: block;
 }
 
 .sprite-ico-down {
-    width: 11px;
-    height: 10px;
-    background-position: -10px -10px;
+	width: 11px;
+	height: 10px;
+	background-position: -10px -10px;
 }
 
 .sprite-ico-down-a {
-    width: 9px;
-    height: 9px;
-    background-position: -10px -40px;
+	width: 9px;
+	height: 9px;
+	background-position: -10px -40px;
 }
 
 .sprite-ico-down-h {
-    width: 11px;
-    height: 10px;
-    background-position: -10px -69px;
+	width: 11px;
+	height: 10px;
+	background-position: -10px -69px;
 }
 
 .sprite-ico-up {
-    width: 11px;
-    height: 10px;
-    background-position: -10px -99px;
+	width: 11px;
+	height: 10px;
+	background-position: -10px -99px;
 }
 
 .sprite-ico-up-a {
-    width: 11px;
-    height: 10px;
-    background-position: -10px -129px;
+	width: 11px;
+	height: 10px;
+	background-position: -10px -129px;
 }
 
 .sprite-ico-up-h {
-    width: 11px;
-    height: 10px;
-    background-position: -10px -159px;
+	width: 11px;
+	height: 10px;
+	background-position: -10px -159px;
 }
 
 .sprite-sprite {
-    width: 47px;
-    height: 724px;
-    background-position: -10px -189px;
+	width: 47px;
+	height: 724px;
+	background-position: -10px -189px;
 }
 
 .sprite-ico-INST {
-    width: 17px;
-    height: 17px;
-    background-position: -10px -10px;
+	width: 17px;
+	height: 17px;
+	background-position: -10px -10px;
 }
 
 .sprite-ico-VK {
-    width: 20px;
-    height: 12px;
-    background-position: -10px -47px;
+	width: 20px;
+	height: 12px;
+	background-position: -10px -47px;
 }
 
 .sprite-ico-basket {
-    width: 17px;
-    height: 16px;
-    background-position: -10px -79px;
+	width: 17px;
+	height: 16px;
+	background-position: -10px -79px;
 }
 
 .sprite-ico-bookmark {
-    width: 14px;
-    height: 16px;
-    background-position: -10px -115px;
+	width: 14px;
+	height: 16px;
+	background-position: -10px -115px;
 }
 
 .sprite-ico-check-off {
-    width: 23px;
-    height: 23px;
-    background-position: -10px -151px;
+	width: 23px;
+	height: 23px;
+	background-position: -10px -151px;
 }
 
 .sprite-ico-check-on {
-    width: 27px;
-    height: 23px;
-    background-position: -10px -194px;
+	width: 27px;
+	height: 23px;
+	background-position: -10px -194px;
 }
 
 .sprite-ico-fb {
-    width: 10px;
-    height: 18px;
-    background-position: -10px -237px;
+	width: 10px;
+	height: 18px;
+	background-position: -10px -237px;
 }
 
 .sprite-ico-home {
-    width: 15px;
-    height: 12px;
-    background-position: -10px -275px;
+	width: 15px;
+	height: 12px;
+	background-position: -10px -275px;
 }
 
 .sprite-ico-login {
-    width: 20px;
-    height: 17px;
-    background-position: -10px -307px;
+	width: 20px;
+	height: 17px;
+	background-position: -10px -307px;
 }
 
 .sprite-ico-login-h {
-    width: 20px;
-    height: 17px;
-    background-position: -10px -344px;
+	width: 20px;
+	height: 17px;
+	background-position: -10px -344px;
 }
 
 .sprite-ico-logout {
-    width: 21px;
-    height: 17px;
-    background-position: -10px -381px;
+	width: 21px;
+	height: 17px;
+	background-position: -10px -381px;
 }
 
 .sprite-ico-logout-h {
-    width: 21px;
-    height: 17px;
-    background-position: -10px -418px;
+	width: 21px;
+	height: 17px;
+	background-position: -10px -418px;
 }
 
 .sprite-ico-phone {
-    width: 19px;
-    height: 19px;
-    background-position: -10px -455px;
+	width: 19px;
+	height: 19px;
+	background-position: -10px -455px;
 }
 
 .sprite-ico-radio {
-    width: 25px;
-    height: 25px;
-    background-position: -10px -494px;
+	width: 25px;
+	height: 25px;
+	background-position: -10px -494px;
 }
 
 .sprite-ico-radio-dot {
-    width: 25px;
-    height: 25px;
-    background-position: -10px -539px;
+	width: 25px;
+	height: 25px;
+	background-position: -10px -539px;
 }
 
 .sprite-ico-search {
-    width: 17px;
-    height: 17px;
-    background-position: -10px -584px;
+	width: 17px;
+	height: 17px;
+	background-position: -10px -584px;
 }
 
 .sprite-ico-search-h {
-    width: 17px;
-    height: 17px;
-    background-position: -10px -621px;
+	width: 17px;
+	height: 17px;
+	background-position: -10px -621px;
 }
 
 .sprite-ico-user {
-    width: 20px;
-    height: 18px;
-    background-position: -10px -658px;
+	width: 20px;
+	height: 18px;
+	background-position: -10px -658px;
 }
 
 .sprite-ico-user-h {
-    width: 20px;
-    height: 18px;
-    background-position: -10px -696px;
+	width: 20px;
+	height: 18px;
+	background-position: -10px -696px;
 }
 
 .header-user-block {
@@ -195,29 +195,62 @@ body {
 	min-height: 42px
 }
 
-.btn-logo {	
-  display: inline-block;
-	float: left;
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.btn-logo {
+	position: relative;  
+	float: left;		
 	width: 220px;	
-  background: #ee3643;
-	border-bottom: 5px solid #b52933;
-  padding-top: 9px;
-	padding-bottom: 6px;
-	font-size: 24px;
+  background: #ee3643;	
+  padding-top: 9px;		
+	padding-bottom: 6px;	
+	font-size: 24px;		
 	text-transform: uppercase;	
   color: #ffffff;
   text-align: center;
   text-decoration: none;
 }
 
+.btn-logo::after {	
+  content: "";
+  position: absolute;
+  top: 42px;
+  left: 0px;
+  width: 220px;	
+  height: 5px;
+  background: #b52933;
+}
+
+.btn-logo:hover ::after {	
+  content: "";
+  position: absolute;
+  top: 42px;
+  left: 0px;
+  width: 220px;	
+  height: 5px;
+  background: #9a212a;
+}
+
+.btn-logo:active ::after {	
+  content: "";
+  position: absolute;
+  top: 42px;
+  left: 0px;
+  width: 220px;	
+  height: 5px;
+  background: #8e1e26;
+}
+
 .btn-logo:hover {	
   background: #ca2c37;
-	border-bottom: 5px solid #9a212a;
 }
 
 .btn-logo:active {	
   background: #ba2732;
-	border-bottom: 5px solid #8e1e26;
 }
 
 .search-main {
@@ -255,10 +288,8 @@ body {
   position: absolute;
   top: 12px;
   left: 17px;
-
   width: 14px;
   height: 16px;
-
   background: transparent url("../img/sprite.png") no-repeat;
   background-position: -20px -304px;
   opacity: 0.3;
@@ -271,7 +302,6 @@ body {
 .bookmarks:active  ::before  {
 	opacity: 0.2;
 }
-
 
 .cart {
 	position: relative;
@@ -305,10 +335,8 @@ body {
   position: absolute;
   top: 12px;
   left: 16px;
-
   width: 17px;
   height: 16px;
-
   background: transparent url("../img/sprite.png") no-repeat;
   background-position: -20px -268px;
   opacity: 0.3;
@@ -356,7 +384,7 @@ body {
 	background: #293449;
 	border: 2px solid #293449;
 	padding-left: 46px;  
-  font-family: "Cuprum", "PT Sans", sans-serif;
+  font-family: "Cuprum", "Arial", sans-serif;
   font-size: 17px;
 	color: #ffffff;
 }
@@ -410,7 +438,7 @@ body {
 	float: left;
 	width: 209px;
 	margin-top: 34px;
-	margin-left: -167px;    
+	margin-left: 53px;    
   font-style: italic;
 	font-size: 16px;
   line-height: 23px;
@@ -436,8 +464,8 @@ body {
   background: #32425c; 
 	margin: 0;
 	padding: 0;
-	list-style: none;
-  
+	font-size: 0;
+	list-style: none;  
 }
 
 .top-navigation li {
@@ -455,6 +483,18 @@ body {
 }
 
 .top-navigation li:first-child:active {
+	background: #1d2739; 
+}
+
+.top-navigation li:last-child  {
+	padding-right: 25px;
+}
+
+.top-navigation li:last-child:hover  {
+	background: #293449; 
+}
+
+.top-navigation li:last-child:active {
 	background: #1d2739; 
 }
 
@@ -509,29 +549,37 @@ body {
 	text-align: center;
 }
 
-.login-block {	
+.authorization-block .unautorized {
+	display: none;
+}
+
+.authorization-block {
+	position: relative;
+	width: 300px;
 	float: right;
 	margin-top: 56px;
-  margin-right: 0px;
 }
 
 .login-block-btn {
-	position: relative;
+	position: relative;	
+	margin-left: 18px;
+	width: 122px;
 	font-size: 21px;
   color: #000000;
   background: #ffffff; 
 	padding-top: 10px;
   padding-bottom: 10px;
-  padding-left: 45px;
-  padding-right: 26px;
+  padding-left: 49px;
+  padding-right: 25px;
   border-radius: 5%;
 	text-decoration: none;
 }
 
-.login-block-btn:last-child {
-  padding-left: 26px;
-  padding-right: 23px;
-  margin-left: 5px;
+.login-block-btn:nth-child(2) {
+	width: 150px;
+  padding-left: 25px;
+  padding-right: 24px;	 
+	margin-left: 5px;
 }
 
 .login-block-btn:hover {
@@ -542,47 +590,41 @@ body {
 	color: #c5c5c5;	
 }
 
-.login-block-btn:first-child::before {
+.login-block-btn::before {
   content: "";
   position: absolute;
   top: 14px;
   left: 14px;
-
   width: 20px;
   height: 17px;
-
   background: transparent url("../img/sprite.png") no-repeat;
   background-position: -20px -496px;
   
 }
 
-.login-block-btn:first-child:hover::before {
+.login-block-btn:nth-child(2)::before {
+  display: none;  
+}
+
+.login-block-btn:hover::before {
   background: transparent url("../img/sprite.png") no-repeat;
   background-position: -20px -533px;  
 }
 
-.login-block-btn:first-child:active::before {
+.login-block-btn:active::before {
   background: transparent url("../img/sprite.png") no-repeat;
   background-position: -20px -496px; 
 }
 
-.authorization-block { 
-  display: inline-block;
-  float: right;
-  margin-right: 0px;  
-}
-
 .authorization-block-btn { 
-  position: absolute;
+	position: relative;
   font-size: 21px;
   color: #000000;
   background: #ffffff; 
 	padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 48px;
-  padding-right: 67px;
-  top: 88px;
-  right: 162px;
+  padding-right: 67px;  
   border-radius: 5%;
 	text-decoration: none;
 }
@@ -600,10 +642,8 @@ body {
   position: absolute;
   top: 13px;
   left: 15px;
-
   width: 20px;
   height: 18px;
-
   background: transparent url("../img/sprite.png") no-repeat;
   background-position: -20px -847px;
   
@@ -624,13 +664,10 @@ body {
   position: absolute;
   top: 13px;
   right: 10px;
-
   width: 21px;
   height: 17px;
-
   background: transparent url("../img/sprite.png") no-repeat;
-  background-position: -20px -570px;
-  
+  background-position: -20px -570px;  
 }
 
 .authorization-block-btn:hover::after {
@@ -643,60 +680,50 @@ body {
   background-position: -20px -570px;
 }
 
-.my-orders {
-  position: absolute;
-  
-  top: 140px;
-  right: 110px;
-  font-size: 16px;
-  color: #32425c;
-  margin-right: 258px;
-	text-decoration: none;
-	border-bottom: 1px solid #32425c;
-}
-
-.my-orders:hover {
-  color: #ee3643;
-	border-bottom: 1px solid #ee3643;
- }
-
-.my-orders:active {
-  color: #cbd1d8;
-	border-bottom: 1px solid transparent;
- }
-
 .personal-account {
-  position: relative;
- 
-  top: 97px;
-  right: 39px;
-  font-size: 16px;
-  color: #32425c;
-  margin-right: 33px;
-	text-decoration: none;
-	border-bottom: 1px solid #32425c;
+	position: relative;
+	width: 243px;
+	margin: 0;
+	padding: 0;
+	font-size: 0px;	
+	list-style: none;
+	margin-top: 18px;
+	margin-left: 3px;	
 }
 
-.personal-account:hover {
+.personal-account li {
+	display: inline-block;
+	padding-left: 16px;
+	padding-right: 16px;
+}
+
+.personal-account a {	
+	font-size: 16px;	
+  color: #32425c;
+  text-decoration: none;
+	border-bottom: 1px solid #32425c;	
+}
+
+.personal-account a:hover {
   color: #ee3643;
 	border-bottom: 1px solid #ee3643;
- }
+}
 
-.personal-account:active {
+.personal-account a:active {
   color: #cbd1d8;
 	border-bottom: 1px solid transparent;
- }
+}
 
 .personal-account::before {
 	content: "";
   position: absolute;
   top: 7px;
-  right: 115px;
+  right: 134px;
 	width: 4px;
 	height: 4px;
 	border-radius: 50%;
   background: #32425c;
- }
+}
 
 .breadcrumbs {
   margin: 0;
@@ -709,12 +736,11 @@ body {
 
 .breadcrumbs li {
   position: relative;
-	font-family: PT Sans;
+	font-family: "PT Sans", "Arial", sans-serif;
 	font-size: 13px;
 	text-transform: uppercase;
   display: inline;
-  padding-right: 37px;
-	
+  padding-right: 37px;	
 }
 
 .breadcrumbs li::before {
@@ -758,7 +784,7 @@ body {
   padding-bottom: 27px;
 	margin-top: 0;
 	margin-bottom: 20px;
-  font-family: "Cuprum";
+  font-family: "Cuprum", "Arial", sans-serif;
 	font-size: 30px;
 	font-weight: 400;
   text-transform: uppercase;
@@ -770,7 +796,7 @@ body {
 	float: left;
 	width: 220px;
 	margin-right: 20px;
-	font-family: PT Sans;
+	font-family: "PT Sans", "Arial", sans-serif;
 	font-size: 17px;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -783,7 +809,7 @@ body {
 .items-column {
 	float: right;
 	width: 700px;
-	font-family: PT Sans;
+	font-family: "PT Sans", "Arial", sans-serif;
 }
 
 .filter-menu {
@@ -820,8 +846,7 @@ body {
 	left: 0;
 	width: 220px;
 	height: 1px;
-	background-color: #e5e5e5;
-	
+	background-color: #e5e5e5;	
 }
 
 .range-controls {
@@ -876,16 +901,13 @@ body {
 }
 
 .price-controls label {
-	font-size: 16px;
-	
+	font-size: 16px;	
 	text-transform: uppercase;
-	display: inline-block;
-	
+	display: inline-block;	
 }
 
 .max-price {
-	text-align: right;
-	
+	text-align: right;	
 }
 
 .price-controls input {
@@ -970,8 +992,6 @@ input[type="checkbox"]:checked +label::before {
 	opacity: 1;
 }
 
-
-
 .third-group input[type="radio"] {
 	display: none;
 }
@@ -1034,7 +1054,7 @@ input:checked +label:disabled {
 	padding-bottom: 9px;
 	font-size: 13px;
 	text-transform: uppercase;
-	font-family: "PT Sans";
+	font-family: "PT Sans", "Arial", sans-serif;
 	font-weight: ;
 	border-radius: 3px;
 	outline: 0;
@@ -1204,7 +1224,7 @@ input:checked +label:disabled {
 	border-radius: 3px;
   margin-right: 10px;
 	font-size: 13px;
-	font-family: "PT Sans";
+	font-family: "PT Sans", "Arial", sans-serif;
 	font-weight: ; 
 	text-decoration: none;
 	text-transform: uppercase;
@@ -1264,21 +1284,20 @@ main {
   display: inline-block;
   margin-bottom: 14px;
 	margin-top: 60px;
-	font-family: "Cuprum";
+	font-family: "Cuprum", "Arial", sans-serif;
 	font-size: 30px;
 	font-weight: 400;
 	color: #000000;
 }
 
 .catalog-section-description p {
-  font-family: "PT Sans";
+  font-family: "PT Sans", "Arial", sans-serif;
   font-size: 13px;
 	font-weight: 400;
   color: #000000;
   line-height: 24px;
 	white-space: pre-wrap;
 }
-
 
 .promo-block {
   margin-top: 58px;
@@ -1349,7 +1368,7 @@ main {
 	padding-bottom: 10px;
   margin-top: -5px;
   margin-left: 24px;
-	background-color: rgba(178,178,178,0.25);   
+	background-color: rgba(0,0,0,0.1);   
   border-radius: 5%;
 	font-size: 14px;
   color: #ffffff;
@@ -1359,11 +1378,11 @@ main {
 }
 
 .promo-btn:hover { 
-  background-color: rgba(178,178,178,0.50);   
+  background-color: rgba(0,0,0,0.2);   
  }
 
 .promo-btn:active { 
-  background-color: rgba(178,178,178,1);   
+  background-color: rgba(0,0,0,0.3);   
  }
 
 .promo-block h2 {
@@ -1480,7 +1499,7 @@ main {
 }
 
 .slide-text p {
-  font-family: PT sans;
+  font-family: "PT Sans", "Arial", sans-serif;
   font-size: 18px;
   margin: 0 auto;
 }
@@ -1536,7 +1555,7 @@ main {
   padding-top: 27px;
   padding-bottom: 27px;
 	margin-bottom: 21px;
-  font-family: "Cuprum";
+  font-family: "Cuprum", "Arial", sans-serif;
 	font-weight: 400;
   font-size: 30px;
   text-transform: uppercase;
@@ -1576,7 +1595,7 @@ main {
   z-index: 10;
   width: 60px;
   height: 60px;
-  content: '';
+  content: "";
   background: url('../img/new-ribbon.png') no-repeat 0 0;
 }
 
@@ -1593,7 +1612,7 @@ main {
 .actions .buy,
 .actions .bookmark {
 	position: relative;
-  font-family: 'Cuprum', 'PT sans', sans-serif;
+  font-family: "Cuprum", "Arial", sans-serif;
   font-size: 14px;
   display: block;
   width: 135px;
@@ -1736,7 +1755,7 @@ main {
   padding-left: 24px;
   padding-top: 27px;
   padding-bottom: 27px;
-  font-family: "Cuprum";
+  font-family: "Cuprum", "Arial", sans-serif;
 	font-weight: 400;
   font-size: 30px;
   text-transform: uppercase;
@@ -1829,7 +1848,7 @@ main {
 
 .title {
   width: 400px; 
-  font-family: "Cuprum";
+  font-family: "Cuprum", "Arial", sans-serif;
   font-size: 30px;
 	font-weight: 400; 
   color: #000000;
@@ -1840,7 +1859,7 @@ main {
 
 .text {
   width: 400px;  
-  font-family: "PT Sans";
+  font-family: "PT Sans", "Arial", sans-serif;
   font-size: 13px;
 	line-height: 24px;
   color: #000000;
@@ -1888,8 +1907,7 @@ input[type="radio"] {
 	border-bottom: 1px solid #293449;
 	padding-left: 22px;
 	padding-top: 17px;
-	padding-bottom: 17px;
-	
+	padding-bottom: 17px;	
 }
 
 .slider-bottom label:hover {
@@ -1926,8 +1944,7 @@ input[type="radio"] {
 }
 
 .slider-bottom-controls {
-	display: block;
-	
+	display: block;	
 }
 
 .bottom-slide-text {
@@ -1937,7 +1954,7 @@ input[type="radio"] {
 }
 
 .bottom-slide-text p {
-	font-family: "PT Sans";
+	font-family: "PT Sans", "Arial", sans-serif;
 	font-size: 13px;
 	line-height: 24px;
 	color: #000000;	
@@ -2009,15 +2026,15 @@ input[type="radio"] {
 }
 
 .about-us-discription {
-	font-family: "PT Sans";
-	font-weight: 700;
+	font-family: "PT Sans", "Arial", sans-serif;
+	font-weight: 400;
 	font-size: 13px;
 	line-height: 24px;
 	margin-bottom: 24px;
 }
 
 .logistic {
-	font-family:"Cuprum";
+	font-family:"Cuprum", "Arial", sans-serif;
 	font-weight: 400;
 	font-size: 18px;
 	margin-left: -3px;
@@ -2081,8 +2098,8 @@ input[type="radio"] {
 }
 
 .contacts-discription {
-	font-family: "PT Sans";
-	font-weight: 700;
+	font-family: "PT Sans", "Arial", sans-serif;
+	font-weight: 400;
 	font-size: 13px;
 	line-height: 24px;
 	width: 181px;
@@ -2092,7 +2109,6 @@ input[type="radio"] {
 .map-wrapper {
 	width: 300px;
 	height: 162px;
-	background:  url('../img/map.jpg') no-repeat 0 0;
 }
 
 .btn-open-modal {
@@ -2413,7 +2429,7 @@ input[type="radio"] {
 
 .modal {
 	position: fixed;
-	display: inline-block;
+	display: none;
 	left: 50%; 
 	top: 50%;
 	z-index: 10;
@@ -2483,7 +2499,7 @@ input[type="radio"] {
 	font-size: 0;
 	font-size: 13px;
 	line-height: 18px;
-	font-family: "Cuprum", "PT Sans", sans-serif;
+	font-family: "Cuprum", "Arial", sans-serif;
 	color: #999999;
 }
 
@@ -2494,7 +2510,7 @@ input[type="radio"] {
 	padding-left:  14px;	
 	font-size: 13px;
 	line-height: 16px;
-	font-family: "Cuprum", "PT Sans", sans-serif;
+	font-family: "Cuprum", "Arial", sans-serif;
 	color: #999999;
 	border: 2px solid #d7dcde;
 	border-radius: 1px;
@@ -2515,7 +2531,7 @@ input[type="radio"] {
 	font-size: 18px;
 	line-height: 18px;
 	margin-bottom: 11px;
-	font-family: "Cuprum", "PT Sans", sans-serif;
+	font-family: "Cuprum", "Arial", sans-serif;
 }
 
 .field-label:nth-child(3) {
@@ -2547,7 +2563,7 @@ input[type="radio"] {
 	padding-bottom: 11px;
 	padding-right: 0;
 	padding-left: 0;
-	font-family: "Cuprum", "PT Sans", sans-serif;
+	font-family: "Cuprum", "Arial", sans-serif;
 	font-size: 14px;
 	color: #ffffff;
 	text-transform: uppercase;
@@ -2593,7 +2609,7 @@ input[type="radio"] {
 	padding-right: 0;
 	padding-left: 0;
 	margin-right: 20px;
-	font-family: "Cuprum", "PT Sans", sans-serif;
+	font-family: "Cuprum", "Arial", sans-serif;
 	font-size: 14px;
 	color: #ffffff;
 	text-transform: uppercase;
@@ -2620,7 +2636,7 @@ input[type="radio"] {
 	padding-bottom: 10px;
 	padding-right: 0;
 	padding-left: 0;
-	font-family: "Cuprum", "PT Sans", sans-serif;
+	font-family: "Cuprum", "Arial", sans-serif;
 	font-size: 14px;
 	color: #000000;
 	text-transform: uppercase;
