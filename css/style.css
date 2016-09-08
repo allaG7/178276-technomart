@@ -549,15 +549,32 @@ body {
 	text-align: center;
 }
 
-.authorization-block .unautorized {
-	display: none;
+.authorization-block 
+.authorization-block-authorized {
+	display:none;
+}
+
+.authorization-block 
+.authorization-block-unauthorized {
+	display:block;
+}
+
+.authorization-block.authorized 
+.authorization-block-authorized {
+	display:block;
+}
+
+.authorization-block.authorized 
+.authorization-block-unauthorized {
+	display:none;
 }
 
 .authorization-block {
 	position: relative;
-	width: 300px;
 	float: right;
+	width: 310px;	
 	margin-top: 56px;
+	text-align: right;
 }
 
 .login-block-btn {
@@ -688,7 +705,7 @@ body {
 	font-size: 0px;	
 	list-style: none;
 	margin-top: 18px;
-	margin-left: 3px;	
+	margin-left: 12px;	
 }
 
 .personal-account li {
@@ -2111,6 +2128,11 @@ input[type="radio"] {
 	height: 162px;
 }
 
+.map-wrapper:hover
+.modal-map:hover {
+display: block;
+}
+
 .btn-open-modal {
 	display: inline-block;
 	width: 300px;
@@ -2432,7 +2454,7 @@ input[type="radio"] {
 	display: none;
 	left: 50%; 
 	top: 50%;
-	z-index: 10;
+	z-index: 6;
 	transform: translate(-50%, -50%);
 	width: 620px;	
 	padding-top: 49px;
@@ -2457,7 +2479,7 @@ input[type="radio"] {
 	width: 41px;
 	height: 41px;
 	font-size: 16px;
-	background-color: #ffffff;
+	background-color: transparent;
 	border: 0;
 	outline: 0;
 	cursor: pointer;
@@ -2481,6 +2503,17 @@ input[type="radio"] {
 
 .modal-content-close::after {
 	transform: rotate(-45deg);
+}
+
+.modal-map {
+	position: absolute;
+	display: none;
+	top: 0;
+	right: 0;
+	width: 940px;
+	height: 447px;
+	background-image: url("../img/map-popup.jpg");
+	box-shadow: 0 0px 20px rgba(0,1,1,.40);
 }
 
 .modal-content.write-us-form {

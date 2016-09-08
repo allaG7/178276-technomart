@@ -34,10 +34,22 @@
 					<p class="address">г. Санкт-Петербург, ул. Б. Конюшенная, д. 19/8</p>
 				</section>			 
 				<div class="authorization-block">
-					<a class="login-block-btn" href="#">Войти</a>
-					<a class="login-block-btn" href="#">Регистрация</a>
-					<a class="authorization-block-btn unautorized" href="#">Равшан Джамшутович</a>	
-				</div>				
+					<div class="authorization-block-unauthorized">
+						<a class="login-block-btn" href="#">Войти</a>
+						<a class="login-block-btn" href="#">Регистрация</a>
+					</div>
+					<div class="authorization-block-authorized">
+						<a class="authorization-block-btn" href="#">Равшан Джамшутович</a>
+						<ul class="personal-account">
+							<li>
+								<a href="#">Мои заказы</a>
+							</li>
+							<li>
+								<a href="#">Личный кабинет</a>
+							</li>
+						</ul>
+					</div>					
+				</div>		
 				<nav class="top-navigation">
 					<ul>            
 						<li>
@@ -268,7 +280,12 @@
 				<p class="contacts-discription">
 Вы можете забрать товар сами, 
 заехав в наш офис:</p>
-				<a class="map-wrapper" href="#"><img src="img/map.jpg" width="300" height="162" alt="Карта">	</a>
+				<a class="map-wrapper" href="#"><img src="img/map.jpg" width="300" height="162" alt="Карта"></a>
+				<div class="modal-map">		
+					<div class="modal-content">
+						<button class="modal-content-close" type="button" title="Закрыть">+</button>
+					</div>
+				</div>	
 				<a class="btn-open-modal" href="#">Заблудились? Напишите нам!</a>
 			</div>
 		</div>
