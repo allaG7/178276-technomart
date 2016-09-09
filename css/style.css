@@ -267,6 +267,7 @@ body {
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 44px;
+  vertical-align: middle;
   font-size: 17px;
   color: #ffffff;
   text-decoration: none;
@@ -309,7 +310,8 @@ body {
   min-height: 22px;
   padding-top: 10px;
   padding-bottom: 10px;
-  padding-left: 50px;  
+  padding-left: 50px; 
+  vertical-align: middle;
   font-size: 17px;
   color: #ffffff;
   text-decoration: none;
@@ -432,7 +434,6 @@ body {
 }
 
 .shop-description {
-  display: inline-block;
   float: left;
   width: 209px;
   margin-top: 34px;
@@ -449,6 +450,7 @@ body {
   width: 267px;
   margin-top: 25px;
   margin-left: 60px;
+  vertical-align: middle;
 }
 
 .top-navigation {
@@ -608,7 +610,7 @@ body {
   content: "";
   position: absolute;
   top: 14px;
-  left: 14px;
+  left: 16px;
   width: 20px;
   height: 17px;
   background: transparent url("../img/sprite.png") no-repeat;
@@ -708,6 +710,7 @@ body {
   display: inline-block;
   padding-left: 16px;
   padding-right: 16px;
+  vertical-align: middle;
 }
 
 .personal-account a {	
@@ -914,9 +917,10 @@ body {
 }
 
 .price-controls label {
+  display: inline-block;
   font-size: 16px;	
-  text-transform: uppercase;
-  display: inline-block;	
+  text-transform: uppercase;  
+  vertical-align: middle;
 }
 
 .max-price {
@@ -1066,6 +1070,7 @@ input:checked +label:disabled {
   padding-top: 9px;
   padding-bottom: 9px;
   font-size: 13px;
+  vertical-align: middle;
   text-transform: uppercase;
   font-family: "PT Sans", "Arial", sans-serif;
   font-weight: ;
@@ -1295,6 +1300,7 @@ main {
   display: inline-block;
   margin-bottom: 14px;
   margin-top: 60px;
+  vertical-align: middle;
   font-family: "Cuprum", "Arial", sans-serif;
   font-size: 30px;
   font-weight: 400;
@@ -1349,6 +1355,7 @@ main {
   box-sizing: border-box;
   padding-top: 0px;
   margin-top: 20px;
+  vertical-align: middle;
   background: #85d179 url(../img/ico-discounts.jpg) no-repeat 196px 26px;
 }
 
@@ -1385,6 +1392,7 @@ main {
   color: #ffffff;
   text-transform: uppercase;
   text-align: center;
+  vertical-align: middle;
   text-decoration: none; 
 }
 
@@ -1488,6 +1496,7 @@ main {
   width: 100%;
   height: 100%;
   margin-top: 20px;
+  vertical-align: top;
 }
 
 .slide:last-child {
@@ -1500,6 +1509,7 @@ main {
   color: #ffffff;
   box-sizing: border-box;
   padding-left: 24px;
+  margin-top: 24px;
 }
 
 .slide-title {
@@ -1529,6 +1539,7 @@ main {
   color: #ffffff;
   text-transform: uppercase;
   text-align: center;
+  vertical-align: top;
   text-decoration: none;
   background: #ee3643;	
   border-radius: 3px;
@@ -1741,7 +1752,7 @@ main {
   position: relative;
   width: 80px;
   margin: 0 auto 20px;
-  padding: 8px 28px;
+  padding: 9px 28px;
   color: #ffffff;
   border-radius: 3px;
   background: #ee3643;
@@ -1783,6 +1794,7 @@ main {
   margin-right: 23px;
   margin-top: -84px;
   font-size: 14px;
+  vertical-align: middle;
   color: #ffffff;
   text-transform: uppercase;
   text-align: center;  
@@ -2077,6 +2089,7 @@ input[type="radio"] {
   text-transform: uppercase;
   text-align: center;  
   text-decoration: none;
+  vertical-align: middle;
   background: #ee3643;	
   border-radius: 3px;
 }
@@ -2131,6 +2144,7 @@ input[type="radio"] {
   text-transform: uppercase;
   text-align: center;  
   text-decoration: none;
+  vertical-align: middle;
   background: #ee3643;	
   border-radius: 3px;	
 }
@@ -2160,6 +2174,7 @@ input[type="radio"] {
   text-transform: uppercase;	
   color: #ffffff;
   text-align: center;
+  vertical-align: middle;
   text-decoration: none;
 }
 
@@ -2314,6 +2329,7 @@ input[type="radio"] {
   border-radius: 50%;
   background: #212a3a;
   text-align: center;	
+  vertical-align: middle;
 }
 
 .social-btn:hover {
@@ -2544,6 +2560,7 @@ input[type="radio"] {
 .field-label {
   display: inline-block;
   text-align: left;
+  vertical-align: middle;
   width: 220px;
   font-size: 18px;
   line-height: 18px;
@@ -2558,7 +2575,8 @@ input[type="radio"] {
 .field-wrapper {
   display: inline-block;
   width: 220px;
-  margin-left: 20px;	
+  margin-left: 20px;
+  vertical-align: middle;
 }
 
 .field-wrapper:nth-child(1) {
@@ -2602,6 +2620,7 @@ input[type="radio"] {
 .btn-send {	
   display: inline-block;
   border: 0;
+  vertical-align: middle;
 }
 
 .btn-wrapper {	
@@ -2630,6 +2649,7 @@ input[type="radio"] {
   color: #ffffff;
   text-transform: uppercase;
   text-align: center;
+  vertical-align: middle;
   text-decoration: none;
   background: #ee3643;
   border-radius: 3px;
@@ -2657,6 +2677,7 @@ input[type="radio"] {
   color: #000000;
   text-transform: uppercase;
   text-align: center;
+  vertical-align: middle;
   text-decoration: none;
   background: #ffffff;
   border: 1px solid #ffffff;
@@ -2722,6 +2743,7 @@ input[type="radio"] {
   margin-left: 55px;
   margin-top: 11px;
   margin-bottom: 31px;
+  vertical-align: middle;
   font-size: 30px;
   color: #000000;
 }
