@@ -744,7 +744,7 @@ body {
 .breadcrumbs {
   margin: 0;
   margin-top: 22px;
-  margin-bottom: 20px;
+  margin-bottom: 23px;
   padding: 0;
   font-size: 0;	
   list-style: none;
@@ -820,6 +820,7 @@ body {
 
 .filters-column p {
   margin-top: 17px;
+  margin-bottom: 20px;
 }
 
 .items-column {
@@ -831,6 +832,7 @@ body {
 .filter-menu {
   background: #f7f3ec;
   padding-top: 10px;
+  line-height: 23px;
 	
 }
 
@@ -838,6 +840,10 @@ body {
   margin: 0;
   padding-left: 19px;
   font-size: 13px;
+}
+
+.filter-title  {
+  line-height: 18px;
 }
 
 .filter-title p {
@@ -869,7 +875,7 @@ body {
   position: relative;
   height: 41px;
   padding-top: 39px;
-  margin-bottom: 7px;
+  margin-bottom: 10px;
   padding-right: 20px;
   padding-left: 20px;
   border-radius: 2px;
@@ -958,7 +964,7 @@ body {
 }
 
 .third-group {
-  margin-top: 20px;
+  margin-top: 22px;
 }
 
 input[type="checkbox"] {
@@ -1091,6 +1097,7 @@ input:checked +label:disabled {
 .final-filter p {
   float: left;
   font-size: 13px;
+  line-height: 18px;
   text-transform: uppercase;
   margin-right: 67px;
 }
@@ -1298,8 +1305,8 @@ main {
 
 .catalog-section-description h2 {
   display: inline-block;
-  margin-bottom: 14px;
-  margin-top: 60px;
+  margin-bottom: 11px;
+  margin-top: 63px;
   vertical-align: middle;
   font-family: "Cuprum", "Arial", sans-serif;
   font-size: 30px;
@@ -1509,7 +1516,7 @@ main {
   color: #ffffff;
   box-sizing: border-box;
   padding-left: 24px;
-  margin-top: 24px;
+  margin-top: 6px;
 }
 
 .slide-title {
@@ -1593,7 +1600,7 @@ main {
   vertical-align: top;
   width: 218px;
   margin-right: 20px;  
-  margin-bottom: 21px;
+  margin-bottom: 20px;
   text-align: center;
   border: 1px solid #e7e7e7;
 }
@@ -1751,7 +1758,7 @@ main {
 .item .price {
   position: relative;
   width: 80px;
-  margin: 0 auto 20px;
+  margin: 0 auto 23px;
   padding: 9px 28px;
   color: #ffffff;
   border-radius: 3px;
@@ -1816,7 +1823,7 @@ main {
   font-size: 0;
   padding: 0;
   margin: 0;
-  margin-bottom: 65px;
+  margin-bottom: 70px;
   text-decoration: none;
 }
 
@@ -1873,7 +1880,8 @@ main {
   font-weight: 400; 
   color: #000000;
   text-transform: uppercase;  
-  padding-top: 62px;  
+  padding-top: 62px;
+  margin-bottom: 25px;
 }
 
 .text {
@@ -2041,6 +2049,7 @@ input[type="radio"] {
   font-weight: 400;
   text-transform: uppercase;
   margin-top: 0;
+  margin-bottom: 24px;
 }
 
 .about-us-discription {
@@ -2126,8 +2135,13 @@ input[type="radio"] {
 }
 
 .map-wrapper {
+  display: block;
   width: 300px;
-  height: 162px;
+  height: 161px;
+}
+
+.map-wrapper img {
+  display: block;
 }
 
 .btn-open-modal {
@@ -2316,7 +2330,7 @@ input[type="radio"] {
 .footer-social {
   float: left;
   margin-left: 159px;
-  margin-top: 3px;
+  margin-top: 17px;
 }
 
 .social-btn {
