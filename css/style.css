@@ -200,14 +200,14 @@ body {
 }
 
 .btn-logo {
-	position: relative;  
-	float: left;		
+	position: relative;
+	float: left;
 	width: 220px;	
   background: #ee3643;	
   padding-top: 9px;		
-	padding-bottom: 6px;	
-	font-size: 24px;		
-	text-transform: uppercase;	
+	padding-bottom: 6px;
+	font-size: 24px;	
+	text-transform: uppercase;
   color: #ffffff;
   text-align: center;
   text-decoration: none;
