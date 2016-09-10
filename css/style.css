@@ -261,14 +261,13 @@ body {
 .bookmarks {
   position: relative;
   float: left;  
-  display:inline-block;	
   width: 106px;
   min-height: 22px;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 44px;
-  vertical-align: middle;
   font-size: 17px;
+  background: #293449;
   color: #ffffff;
   text-decoration: none;
 }
@@ -289,7 +288,7 @@ body {
   left: 17px;
   width: 14px;
   height: 16px;
-  background: transparent url("../img/sprite.png") no-repeat;
+  background: #293449 url("../img/sprite.png") no-repeat;
   background-position: -20px -304px;
   opacity: 0.3;
 }
@@ -305,14 +304,13 @@ body {
 .cart {
   position: relative;
   float: left;  
-  display:inline-block;	
   width: 100px;
   min-height: 22px;
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 50px; 
-  vertical-align: middle;
   font-size: 17px;
+  background: #293449;
   color: #ffffff;
   text-decoration: none;
 }
@@ -405,6 +403,7 @@ body {
 }
 
 .search-main input.ico-search {
+  background: #293449;
   background-image: url("../img/sprite.png");
   background-repeat: no-repeat;
   background-position: -5px -763px;
@@ -412,6 +411,7 @@ body {
 }
 
 .search-main input.ico-search:hover {
+  background: #212a3a;
   background-image: url("../img/sprite.png");
   background-repeat: no-repeat;
   background-position: -5px -763px;
@@ -419,6 +419,7 @@ body {
 }
 
 .search-main input.ico-search:focus {
+  background: #ffffff;
   background-image: url("../img/sprite.png");
   background-repeat: no-repeat;
   background-position: -5px -800px;
@@ -538,7 +539,7 @@ body {
   color: #e9292a;
   border: 3px solid #ffffff;
   border-radius: 4%;
-  background: url("../img/sprite.png") no-repeat;
+  background: #f1f5f7 url("../img/sprite.png") no-repeat;
   background-position: -10px -635px;
 }
 
@@ -2144,6 +2145,10 @@ input[type="radio"] {
   display: block;
 }
 
+.map-wrapper:hover + .modal-map {
+  display: block;
+}
+
 .btn-open-modal {
   display: inline-block;
   width: 300px;
@@ -2526,7 +2531,7 @@ input[type="radio"] {
   right: 0;
   width: 940px;
   height: 447px;
-  background-image: url("../img/map-popup.jpg");
+  background: url("../img/map-popup.jpg") #e9e5dc no-repeat;
   box-shadow: 0 0px 20px rgba(0,1,1,.40);
 }
 
