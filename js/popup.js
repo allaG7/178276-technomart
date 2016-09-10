@@ -1,4 +1,3 @@
-<script>
     var link = document.querySelector(".open-modal");
 		
     var popup = document.querySelector(".modal");
@@ -47,4 +46,3 @@
 			}
 		 }
 		});
-	</script>
